@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Guide</title>
+    <!-- <link href="css/styleguide.css" rel="stylesheet"> -->
+    <link href="css/home.css" rel="stylesheet">
+
+</head>
+
+<!-- Navigation bar and Links -->
+
+<body>
+    <div class="nav">
+        <h2> <a href="#"><span class="title-style">K</span>ais <span class="title-style">N</span>effati<span
+                    class="title-style">.</span></a></h2>
+        <ul id="item">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Skills</a></li>
+            <li> <a href="#">Work</a></li>
+            <li> <a href="resume.html">Resume</a></li>
+            <li> <a href="styleguide.html">Styleguide</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <!-- Home section -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm a <span class="multitext"></span></h1>
+                <p>My name is <span class="title-style">Kais Neffati</span> I'm a student
+                    at <span class="title-style">Simon Fraser University</span> majoring
+                    in <span class="title-style">Interactive Arts and Technology</span> with concentrations
+                    in <span class="title-style">Design</span> & <span class="title-style">Media</span>.</p>
+                <p> Looking for a <span class="title-style">Designer</span> or a <span class="title-style">Media Spacialist</span> for your startup? Well, I'm your guy!
+                </p>
+                <p>I have collaborated on numerous design and media initiatives with
+                    organizations and universities, such as University of Doha for Science and Technology,
+                        City of Vancouver, and NBC Universal Telemundo.</p>
+                <div class="home-btn">
+                    <a class="btn" href="#">Contact me</a>
+                    <a class="btn" href="#">Hire me</a>
+                </div>
+            </div>
+            <div class="cols col1">
+                <div class="imgbox">
+                    <img src="img/me.JPG">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Source: https://github.com/mattboldt/typed.js/ -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["UX/UI Designer","Web Developer","Video Editor"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80, 
+            backDelay : 1500
+        })
+    </script>
+    
+
+</body>
